@@ -8,7 +8,7 @@ function CanDrive(hasDrivingLiscence, isTired, isSober) {
     }
     else if((isTired === true&& isSober === true) || (isTired === true && isSober === false) || (isTired === false && isSober === true)){
         return("You can drive")
-    }
+    } 
 }
 
 module.exports = CanDrive;
